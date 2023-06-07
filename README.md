@@ -37,7 +37,7 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 - [X] 🔨 Hands-on: [My first container Action](hol/02-My-first-action.md)
 - [x] Typescript and composite actions
 - [x] Sharing and releasing actions
-- [ ] Using the GitHub API and Octokit
+- [x] Using the GitHub API and Octokit
 - [ ] Job descriptions
 
 ### Day 2

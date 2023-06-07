@@ -1,13 +1,13 @@
-name: 'Hello World Docker Action'
-description: 'Say hello to a user or the world.'
+name: 'Hello World'
+description: 'Greet someone and record the time'
 inputs:
-  who-to-greet: 
+  who-to-greet:  # id of input
     description: 'Who to greet'
     required: true
-    default: 'world'
-  outputs:
-  time:
-    description: 'The time we said hello.'
+    default: 'World'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
 runs:
   using: 'docker'
   image: 'Dockerfile'

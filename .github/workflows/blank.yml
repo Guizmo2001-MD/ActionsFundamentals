@@ -1,8 +1,9 @@
 name: my-first-workflow
 on: [push]
+
 jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      -name: My first job
-      run: echo hello world
+      - name: My first job
+        run: echo hello world

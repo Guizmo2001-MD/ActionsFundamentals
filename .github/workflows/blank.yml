@@ -13,7 +13,7 @@ jobs:
   Build:
     runs-on: ubuntu-latest
     steps:
-      - name: My first job
+      - name: Build
         run: echo hello world
   Test:
     runs-on: ubuntu-latest

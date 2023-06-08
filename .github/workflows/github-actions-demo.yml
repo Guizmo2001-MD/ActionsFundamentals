@@ -1,4 +1,4 @@
-name: 01-github-actions-demo
+name: 01-03-github-actions-demo 
 on:
   push:
     branches: [ main ]
